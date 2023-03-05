@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body,html{
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+    color:white;
+}
+.header{
+    position:sticky;
+    top:0;
+}
+.content h1 .span{
+    color:yellow;
+    font-size: 2em;
+}
+.content h1{
+    font-weight:bolder;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 30px;
+    background-color: #0089b7;
+
+
+}
+.menu a {
+    margin:0 20px;
+    text-decoration: none;
+    color:white;font-size:1 rem;
+    font-weight: 700;
+    
+}
+.logo{
+    font-size:1.5rem;
+    font-weight:700;
+}
+.menu a:hover{
+    border-bottom: 2px solid yellow;
+}
+main{
+    background-color: rgb(47, 47, 102);
+
+}
+#home .container{
+    display:flex;
+    align-items: center;
+    gap:300px;
+    border-bottom: 10px solid #0089b7;
+
+}
+.img_content img{
+    border-radius: 500px;
+    height:500px;
+    width:400px;
+    
+    
+}
+.img_content{
+    padding:20px;
+}
+#projects{
+    padding:20px;
+    background-color: #003251;
+    text-align: center;
+   
+
+    
+}
+.project_container img{
+    height:200px;
+    width:200px;
+
+  
+}
+
+.project_container:hover{
+    
+    box-shadow:10px 10px 10px 0 greenyellow;
+
+}
+#projects .container{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+    margin:10px;
+}
+#projects .container2{
+    display:flex;
+    justify-content: space-around;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    
+}
+.container h1{
+    align-items: center;
+}
+#contact{
+    background-color: #0089b7;
+}
+#contact .container h1{
+    text-align: center;
+    padding:20px ;
+    margin:5px;
+}
+.top_contact{
+    font-size: 1.5em;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:20px;
+   
+}
+.bottom_contact{
+    font-size:1.5em;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:20px;
+   
+}
+
